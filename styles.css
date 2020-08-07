@@ -1,0 +1,41 @@
+header {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: monospace;
+  background-color: aliceblue;
+}
+
+main {
+  max-width: 80rem;
+  margin: 5rem auto 0 auto;
+}
+
+.user-response img {
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+#user-responses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.user-response {
+  background: white;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
